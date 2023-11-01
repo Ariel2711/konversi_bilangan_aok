@@ -31,8 +31,9 @@ public class KonversiBilangan {
             }
             else if(pilihan == 6) {
                 hexaToDesimal(scanner);
+                System.out.println();
             }
-            else if(pilihan == 0) break;
+            else if(pilihan == 7) break;
             else {
                 System.out.println("Pilihan tidak valid");
                 System.out.println();
@@ -50,7 +51,7 @@ public class KonversiBilangan {
         System.out.println("4. Hexa ke Biner");
         System.out.println("5. Desimal ke Heksadesimal");
         System.out.println("6. Heksadesimal ke Desimal");
-        System.out.println("0. Keluar");
+        System.out.println("7. Keluar");
 
         System.out.print("Masukkan pilihan Anda : ");
         int pilihan = scanner.nextInt();
