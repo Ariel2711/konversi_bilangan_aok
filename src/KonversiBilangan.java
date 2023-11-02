@@ -48,7 +48,7 @@ public class KonversiBilangan {
         System.out.println("1. Biner ke Desimal");
         System.out.println("2. Desimal ke Biner");
         System.out.println("3. Biner ke Heksadesimal");
-        System.out.println("4. Hexa ke Biner");
+        System.out.println("4. Heksadesimal ke Biner");
         System.out.println("5. Desimal ke Heksadesimal");
         System.out.println("6. Heksadesimal ke Desimal");
         System.out.println("7. Keluar");
