@@ -91,7 +91,7 @@ public class KonversiBilangan {
         try {
             int desimal = Integer.parseInt(biner, 2);
             String hexa = Integer.toHexString(desimal);
-            System.out.println("Hasil konversi ke bilangan heksadesimal : " + hexa);
+            System.out.println("Hasil konversi ke bilangan heksadesimal : " + hexa.toUpperCase());
         } catch (NumberFormatException e) {
             System.out.println("Input tidak valid. Pastikan Anda memasukkan bilangan biner yang benar.");
         }
